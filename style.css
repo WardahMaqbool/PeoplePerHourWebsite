@@ -1,0 +1,389 @@
+.logo {
+  height: 30px;
+  margin-left: 30px;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.navbarClass {
+  height: 4.5rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.nav-item {
+  margin-left: 10px;
+}
+
+.navtext {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  color: rgb(71, 73, 79);
+  transition: color 0.11s ease-in 0s;
+  font-size: 0.80073rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.navtext:hover {
+  color: rgb(255, 115, 0);
+  transition: color 0.12s ease-out 0s;
+}
+
+.navtext2 {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  color: rgb(255, 115, 0);
+  /* transition: color 0.11s ease-in 0s; */
+  font-size: 0.80073rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+.navtext2:hover {
+  color: rgb(255, 115, 0);
+  transition: color 0.12s ease-out 0s;
+}
+
+.navtext3 {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  color: rgb(52, 168, 202);
+  transition: color 0.11s ease-in 0s;
+  font-size: 0.80073rem;
+  font-weight: 750;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+.navtext3:hover {
+  color: rgb(52, 168, 202);
+  transition: color 0.11s ease-in 0s;
+}
+
+.btnbg {
+  border-radius: 3px;
+}
+
+.btnbg:hover {
+  background-color: transparent !important;
+  color: rgb(52, 168, 202);
+}
+
+.offcanvas.offcanvas-end {
+  width: 75%;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.subnavbar {
+  box-shadow: 0 2px 2px rgb(238, 234, 234);
+  height: 35px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.subnav {
+  position: relative;
+  color: rgb(91, 102, 120);
+  transition: all 0.275s ease-in 0s;
+  font-family: "Nunito sans", sans-serif;
+  font-weight: 300;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.section1 {
+  background-color: #f8f9fa;
+  --bs-gutter-x: none;
+}
+
+.heading1 {
+  font-family: "Nunito", sans-serif;
+  letter-spacing: -0.0625rem;
+  transition: color 0.1s cubic-bezier(0, 0, 0.088, 0.958) 20ms;
+  animation: changeColor 20s linear infinite;
+  font-size: 4.625rem;
+  line-height: 5.125rem;
+}
+
+@keyframes changeColor {
+  0% {
+    color: rgb(74, 57, 172);
+  }
+  20% {
+    color: rgb(253, 122, 104);
+  }
+  40% {
+    color: rgb(231, 149, 10);
+  }
+  60% {
+    color: rgb(145, 33, 108);
+  }
+  80% {
+    color: rgb(224, 33, 27);
+  }
+  100% {
+    color: rgb(185, 37, 40);
+  }
+}
+
+.subheading1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3125rem;
+  line-height: 1.9375rem;
+  color: rgb(29, 29, 29);
+}
+
+.headingBlock {
+  margin-top: 17%;
+  margin-left: 33px;
+}
+
+.slider {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
+.searchBar {
+  margin-left: 32px;
+  margin-top: 46px;
+  box-shadow: 3px 3px 12px #bfb6b6;
+  border-radius: 12px;
+}
+
+.searchInput {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+@keyframes changeBgColor {
+  0% {
+    background-color: rgb(74, 57, 172);
+  }
+  20% {
+    background-color: rgb(253, 122, 104);
+  }
+  40% {
+    background-color: rgb(231, 149, 10);
+  }
+  60% {
+    background-color: rgb(145, 33, 108);
+  }
+  80% {
+    background-color: rgb(224, 33, 27);
+  }
+  100% {
+    background-color: rgb(185, 37, 40);
+  }
+}
+
+.searchButton {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  height: 4.5rem;
+  animation: changeBgColor 20s linear infinite;
+}
+
+.Slider1image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: 50% 20%;
+}
+
+.skills {
+  background-color: rgb(195, 200, 212, 0.2);
+  font-family: "Nunito sans", sans-serif;
+  border-radius: 0.225rem;
+  background: rgba(195, 200, 212, 0.2);
+  padding: 0.1875rem 0.75rem;
+  color: #5b6678;
+  font-size: 0.6875rem;
+  border: 0px;
+}
+
+.skillsLabel {
+  color: #5b6678;
+  font-size: 0.6875rem;
+  font-family: "Nunito sans", sans-serif;
+  margin-top: 15px;
+  padding-left: 32px;
+}
+
+.cardStyle {
+  width: 9rem;
+  margin-left: 60%;
+  margin-top: -25%;
+  margin-bottom: 8%;
+  box-shadow: rgba(0, 0, 0, 0.035) 0px 0px 2px 2px,
+    rgba(0, 0, 0, 0.035) 0px 5px 5px, rgba(0, 0, 0, 0.035) 0px 12px 12px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 0.75rem;
+}
+
+.picture {
+  height: 60px;
+  width: 60px;
+  margin-inline: auto;
+  margin-top: 15px;
+}
+
+.mobileView {
+  display: none;
+}
+
+.orderDiv1 {
+  order: 2;
+}
+.orderDiv2 {
+  order: 1;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: darkgray;
+}
+
+.carousel-indicators {
+  gap: 8px;
+}
+
+.carousel-indicators .active {
+  animation: changeBgColor 20s linear infinite;
+}
+
+.sform {
+  height: 4.5rem;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.subMenu {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  font-weight: 300;
+  line-height: 1.1875rem;
+  color: #91918f;
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  border-color: transparent;
+}
+@media (max-width: 768px) {
+  .view {
+    display: none;
+  }
+  .mobileView {
+    display: block;
+  }
+  .orderDiv1 {
+    order: 1;
+  }
+  .orderDiv2 {
+    order: 2;
+  }
+
+  .heading1 {
+    font-size: 2.0625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.25rem;
+    text-align: center;
+  }
+
+  .slider {
+    margin-top: 0px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+  }
+
+  .carousel-indicators {
+    gap: 8px;
+  }
+
+  .cardStyle {
+    /* margin-left: 224px; */
+    /* margin-top: -129px; */
+    /* margin-bottom: 49px; */
+  }
+
+  .headingBlock {
+    margin-top: 8%;
+    margin-left: 0px;
+  }
+
+  .subheading1 {
+    text-align: center;
+    font-size: 1.398rem;
+    line-height: 1.8125rem;
+  }
+
+  .searchBar {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 38px;
+    border-radius: 8px;
+  }
+
+  .searchInput {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+  .searchButton {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 3.5rem;
+  }
+
+  .sform {
+    height: 3.5rem;
+  }
+
+  .logo {
+    margin-left: 8px;
+  }
+
+  .subnavbar {
+    height: 40px;
+    overflow-x: none;
+  }
+
+  .section1 {
+    padding: 30px;
+  }
+
+  .skillsLabel {
+    padding-left: 0px;
+  }
+}

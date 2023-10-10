@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    PeoplePerHour.com - Hire Freelancers Online & Find Freelance Work
+  </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito:wght@800&family=Open+Sans&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <nav class="navbar bg-body-tertiary navbar-expand-lg navbarClass">
+    <div class="container-fluid">
+      <img src="./Assets/logo.svg" class="logo" />
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item dropdown ml-2">
+              <button class="btn btn-outline-primary btn-lg btnbg dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="./Assets/Search.svg" style="height: 18px;">
+                <h1 class="navtext3"> Search</h1>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Option 1</a></li>
+                <li><a class="dropdown-item" href="#">Option 2</a></li>
+                <li><a class="dropdown-item" href="#">Option 3</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navtext" href="#">How it works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navtext" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navtext" href="#">Signup</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navtext2" href="#">Freelancer?</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="subnavbar">
+    <div class="view">
+      <ul class="nav nav-underline" style="gap: 35px">
+        <li class="nav-item">
+          <a class="nav-link subnav" aria-current="page" href="#">
+            Technology & Programming
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link subnav" aria-current="page" href="#">
+            Writing and Translation
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link subnav" aria-current="page" href="#">Design</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link subnav" aria-current="page" href="#">
+            Digital Marketing
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link subnav" aria-current="page" href="#">
+            Video,& Image
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link subnav" aria-current="page" href="#">Business</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link subnav" aria-current="page" href="#">
+            Music & Audio
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link subnav" aria-current="page" href="#">
+            Marketing, Branding & Sales
+          </a>
+        </li>
+        <li class="nav-item m">
+          <a class="nav-link subnav" aria-current="page" href="#">
+            Social Media
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="mobileView">
+      <button class="btn dropdown-toggle" type="button" id="subnavButton" data-bs-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+        <span class="subMenu">Browse By Category</span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="subnavButton">
+        <li><a class="dropdown-item subMenu">Technology & Programming</a></li>
+        <li><a class="dropdown-item subMenu">Writing and Translation</a></li>
+        <li><a class="dropdown-item subMenu">Design</a></li>
+        <li><a class="dropdown-item subMenu">Digital Marketing</a></li>
+        <li><a class="dropdown-item subMenu">Video,& Image</a></li>
+        <li><a class="dropdown-item subMenu">Music & Audio</a></li>
+        <li><a class="dropdown-item subMenu">Marketing, Branding & Sales</a></li>
+        <li><a class="dropdown-item subMenu">Social Media</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- Header -->
+  <section style="margin-top: 2px">
+    <div class="row section1">
+      <div class="col-lg-6 col-md-6 col-xs-12 orderDiv2" style="padding: 20px;">
+        <div class="headingBlock">
+          <p class="heading1">Make bright ideas happen</p>
+          <h1 class="subheading1">
+            Access global talent on the freelancer website trusted by over 1
+            million businesses worldwide.
+          </h1>
+        </div>
+        <div class="searchBar">
+          <form class="form-inline">
+            <div class="input-group sform">
+              <input type="text" class="form-control searchInput" placeholder='Try "web development"' />
+              <div class="input-group-append">
+                <button class="btn searchButton" type="submit">
+                  <img src="./Assets/searchIcon.svg" />
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="skillsLabel">
+          Popular skills:
+          <button class="skills" style="margin-left: 2%;">web design</button>
+          <button class="skills">ux/ui design</button>
+          <button class="skills">android app development</button>
+          <button class="skills">responsive design</button>
+        </div>
+      </div>
+      <div class="col-lg-6 slider col-md-6 col-xs-12 orderDiv1 ">
+        <div id="carousel1" class="carousel slide">
+          <!-- data-bs-ride="carousel" -->
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3200">
+              <img src="./Assets/image4.jpg" class="d-block w-100" alt="..." />
+              <div class="card cardStyle">
+                <img src="./Assets/picture.png" class="picture" />
+                <div class="card-body" style="padding: 4px">
+                  <h5 class="card-title" style="text-align: center; font-size: 1rem">
+                    Web Developer
+                  </h5>
+                  <p class="card-text" style="
+                        text-align: center;
+                        color: gray;
+                        font-size: 10px;
+                        margin-bottom: 10px;
+                      ">
+                    Wardah Maqbool <br />
+                    ⭐5.0 (117)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3200">
+              <img src="./Assets/image2.jpg" class="d-block w-100" alt="..." />
+              <div class="card cardStyle">
+                <img src="./Assets/picture.png" class="picture" />
+                <div class="card-body" style="padding: 4px">
+                  <h5 class="card-title" style="text-align: center; font-size: 1rem">
+                    Web Developer
+                  </h5>
+                  <p class="card-text" style="
+                        text-align: center;
+                        color: gray;
+                        font-size: 10px;
+                        margin-bottom: 0px;
+                      ">
+                    Wardah Maqbool <br />
+                    ⭐5.0 (117)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3200">
+              <img src="./Assets/image5.jpg" class="d-block w-100" alt="..." />
+              <div class="card cardStyle">
+                <img src="./Assets/picture.png" class="picture" />
+                <div class="card-body" style="padding: 4px">
+                  <h5 class="card-title" style="text-align: center; font-size: 1rem">
+                    Web Developer
+                  </h5>
+                  <p class="card-text" style="
+                        text-align: center;
+                        color: gray;
+                        font-size: 10px;
+                        margin-bottom: 0px;
+                      ">
+                    Wardah Maqbool <br />
+                    ⭐5.0 (117)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3200">
+              <img src="./Assets/image1.jpg" class="d-block w-100" alt="..." />
+              <div class="card cardStyle">
+                <img src="./Assets/picture.png" class="picture" />
+                <div class="card-body" style="padding: 4px">
+                  <h5 class="card-title" style="text-align: center; font-size: 1rem">
+                    Web Developer
+                  </h5>
+                  <p class="card-text" style="
+                        text-align: center;
+                        color: gray;
+                        font-size: 10px;
+                        margin-bottom: 0px;
+                      ">
+                    Wardah Maqbool <br />
+                    ⭐5.0 (117)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3200">
+              <img
+                src="https://dw3i9sxi97owk.cloudfront.net/homepageRevampA3/HeroImage/instance-2/hero-instance-2--desktop@2x.webp"
+                class="d-block w-100" alt="..." />
+              <div class="card cardStyle">
+                <img src="./Assets/picture.png" class="picture" />
+                <div class="card-body" style="padding: 4px">
+                  <h5 class="card-title" style="text-align: center; font-size: 1rem">
+                    Web Developer
+                  </h5>
+                  <p class="card-text" style="
+                        text-align: center;
+                        color: gray;
+                        font-size: 10px;
+                        margin-bottom: 0px;
+                      ">
+                    Wardah Maqbool <br />
+                    ⭐5.0 (117)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3200">
+              <img src="./Assets/image3.jpg" class="d-block w-100" alt="..." />
+              <div class="card cardStyle">
+                <img src="./Assets/picture.png" class="picture" />
+                <div class="card-body" style="padding: 4px">
+                  <h5 class="card-title" style="text-align: center; font-size: 1rem">
+                    Web Developer
+                  </h5>
+                  <p class="card-text" style="
+                        text-align: center;
+                        color: gray;
+                        font-size: 10px;
+                        margin-bottom: 0px;
+                      ">
+                    Wardah Maqbool <br />
+                    ⭐5.0 (117)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button class="sliderButton" type="button" data-bs-target="#carousel1" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button class="sliderButton" type="button" data-bs-target="#carousel1" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button class="sliderButton" type="button" data-bs-target="#carousel1" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+            <button class="sliderButton" type="button" data-bs-target="#carousel1" data-bs-slide-to="4"
+              aria-label="Slide 5"></button>
+            <button class="sliderButton" type="button" data-bs-target="#carousel1" data-bs-slide-to="5"
+              aria-label="Slide 6"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
